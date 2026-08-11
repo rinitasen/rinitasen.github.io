@@ -141,6 +141,12 @@ nav {
 }
 .hero-sub p { font-size: inherit; margin-bottom: 0; }
 .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+.hero-grid { display: grid; grid-template-columns: 1fr 380px; gap: 3rem; align-items: center; }
+.hero-photo img { width: 100%; border-radius: 4px; object-fit: cover; aspect-ratio: 4/5; }
+@media (max-width: 800px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-photo { order: -1; max-width: 260px; }
+}
 
 /* ── SECTION LABELS ──────────────────────────────────────── */
 .section-label {

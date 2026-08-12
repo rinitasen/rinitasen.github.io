@@ -141,7 +141,7 @@ nav {
 }
 .hero-sub p { font-size: inherit; margin-bottom: 0; }
 .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
-.hero-grid { display: grid; grid-template-columns: 1fr 420px; gap: 3rem; align-items: center; }
+.hero-grid { display: grid; grid-template-columns: 1fr 420px; gap: 3rem; align-items: start; }
 .video-wrap { position: relative; width: 100%; padding-bottom: 56.25%; border-radius: 4px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.10); }
 .video-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 @media (max-width: 800px) {

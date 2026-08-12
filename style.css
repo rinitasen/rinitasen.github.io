@@ -118,7 +118,13 @@ nav {
 }
 .btn-outline:hover { background: var(--teal); color: var(--white); }
 
-/* ── HERO ────────────────────────────────────────────────── */
+/* ── ABOUT STRIP ─────────────────────────────────────────── */
+.about-strip { padding: 1.8rem 0; background: var(--paper); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.about-inner { display: flex; align-items: center; gap: 1.4rem; }
+.about-photo { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; object-position: top; flex-shrink: 0; }
+.about-line { margin: 0; font-size: .95rem; color: var(--mid); }
+.about-line strong { color: var(--ink); }
+@media (max-width: 700px) { .about-inner { flex-direction: column; text-align: center; } }
 .hero {
   padding: clamp(3rem, 8vw, 6rem) 0 clamp(2rem, 5vw, 4rem);
   border-bottom: 1px solid var(--rule);

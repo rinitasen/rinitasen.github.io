@@ -240,7 +240,7 @@ nav {
   color: var(--teal);
   margin-bottom: .4rem;
 }
-.takeaway p { color: var(--mid); font-size: .95rem; margin: 0; }
+.takeaway p { color: var(--mid); font-size: .95rem; margin-bottom: 0.8rem; }
 
 /* ── TESTIMONIALS ────────────────────────────────────────── */
 .testimonials-grid { display: grid; gap: 1.5rem; }
